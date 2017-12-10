@@ -16,7 +16,7 @@ def gcd(a,b):
 
 def compareTo(s1, s2):
     ts1 = s1[0:1]
-    ts2 = s1[0:1]
+    ts2 = s2[0:1]
 
     if len(s1) == 0 and len(s2) == 0: # matched / end of comparison
         return 0
@@ -46,4 +46,5 @@ if __name__ == "__main__":
     print '\nTesting compareTo() Function'
     print compareTo("class","classes")
     print compareTo("classes", "class")
+    print compareTo("glass", "class")
     print compareTo("class","class")
